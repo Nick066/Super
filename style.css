@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif;
-  background-color: #f9f9f9;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f3f3f3;
   color: #333;
 }
 
@@ -11,29 +11,30 @@ header {
 }
 
 .announcement-bar {
-  background-color: #388e3c; /* трохи світліший зелений */
-  text-align: center;
+  background-color: #43a047; /* яскравіший зелений */
   padding: 10px;
+  text-align: center;
   font-weight: bold;
 }
 
 .navbar {
+  background-color: #2e7d32;
   display: flex;
   justify-content: center;
-  background-color: #2e7d32;
 }
 
 .navbar ul {
   list-style: none;
   display: flex;
-  gap: 20px;
   padding: 10px;
   margin: 0;
+  gap: 20px;
 }
 
 .navbar li a {
   color: white;
   text-decoration: none;
+  font-size: 16px;
   font-weight: bold;
 }
 
@@ -41,25 +42,34 @@ header {
   text-decoration: underline;
 }
 
+main {
+  padding: 20px;
+}
+
 section {
-  padding: 40px 20px;
+  margin-bottom: 50px;
   text-align: center;
 }
 
-section h2 {
-  color: #2e7d32;
+h2 {
+  color: white;
+  background-color: #2e7d32;
+  padding: 15px;
   margin-bottom: 20px;
+  display: inline-block;
+  width: 100%;
 }
 
 .gallery {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
   gap: 10px;
+  justify-content: center;
 }
 
 .gallery img {
-  max-width: 200px;
+  max-width: 300px;
+  height: auto;
   border-radius: 10px;
 }
 
