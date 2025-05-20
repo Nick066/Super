@@ -1,54 +1,84 @@
+/* Загальні стилі */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #fff8f0;
-  color: #333;
+  background-color: #ffffff;
+  color: #333333;
 }
+
 header {
-  background-color: #f76c6c;
-  color: white;
-  padding: 1em 0;
+  background-color: #2e7d32; /* Темно-зелений */
+  color: #ffffff;
+  padding: 20px 0;
   text-align: center;
 }
+
 nav ul {
   list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0;
   display: flex;
   justify-content: center;
-  gap: 1.5em;
-  padding: 0;
-  margin-top: 10px;
+  flex-wrap: wrap;
 }
-nav a {
-  color: white;
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #ffffff;
   text-decoration: none;
   font-weight: bold;
 }
-.hero {
-  background-color: #ffe9e3;
-  text-align: center;
-  padding: 3em 1em;
+
+nav ul li a:hover {
+  text-decoration: underline;
 }
+
+main {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 section {
-  padding: 2em;
+  margin-bottom: 60px;
 }
-#menu ul {
-  list-style: none;
-  padding: 0;
-  line-height: 2;
+
+h2 {
+  color: #2e7d32;
+  border-bottom: 2px solid #2e7d32;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
 }
+
 .gallery {
   display: flex;
-  gap: 10px;
   flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
 }
+
 .gallery img {
-  width: 30%;
+  width: 220px;
   height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
 }
+
+.map iframe {
+  border: none;
+  border-radius: 8px;
+  width: 100%;
+  height: 300px;
+}
+
 footer {
+  background-color: #2e7d32;
+  color: #ffffff;
   text-align: center;
-  padding: 1em;
-  background-color: #f76c6c;
-  color: white;
+  padding: 15px 0;
 }
+
