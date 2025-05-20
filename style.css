@@ -1,32 +1,94 @@
-/* Загальні стилі */
+/* Основне */
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
+  font-family: Arial, sans-serif;
   background-color: #ffffff;
-  color: #333333;
+  color: #333;
 }
 
 /* Анонсмент-бар */
 .announcement-bar {
-  background-color: #4caf50; /* Світліший зелений */
+  background-color: #4caf50; /* Світло-зелений */
   color: white;
+  padding: 10px;
   text-align: center;
-  padding: 8px 0;
-  font-size: 14px;
   font-weight: bold;
 }
 
 /* Хедер */
 header {
   background-color: #2e7d32; /* Темно-зелений */
-  color: #ffffff;
-  padding: 20px 0;
+  color: white;
+  padding: 30px 20px 20px;
   text-align: center;
 }
 
 nav ul {
   list-style: none;
   padding: 0;
-  margin: 10px 0 0 0
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Секції */
+main {
+  padding: 30px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+h2 {
+  color: #2e7d32;
+  border-bottom: 2px solid #2e7d32;
+  padding-bottom: 10px;
+}
+
+/* Галерея */
+.gallery {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 220px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+/* Карта */
+.map iframe {
+  width: 100%;
+  height: 300px;
+  border: none;
+  border-radius: 8px;
+}
+
+/* Футер */
+footer {
+  background-color: #2e7d32;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
