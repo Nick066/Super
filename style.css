@@ -1,91 +1,68 @@
-/* Основне */
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #ffffff;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9;
   color: #333;
 }
 
-/* Анонсмент-бар */
-.announcement-bar {
-  background-color: #4caf50; /* Світло-зелений */
+header {
+  background-color: #2e7d32; /* темно-зелений */
   color: white;
-  padding: 10px;
+}
+
+.announcement-bar {
+  background-color: #388e3c; /* трохи світліший зелений */
   text-align: center;
+  padding: 10px;
   font-weight: bold;
 }
 
-/* Хедер */
-header {
-  background-color: #2e7d32; /* Темно-зелений */
-  color: white;
-  padding: 30px 20px 20px;
-  text-align: center;
-}
-
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin-top: 15px;
+.navbar {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+  background-color: #2e7d32;
 }
 
-nav ul li {
-  margin: 0 15px;
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  margin: 0;
 }
 
-nav ul li a {
+.navbar li a {
   color: white;
   text-decoration: none;
   font-weight: bold;
 }
 
-nav ul li a:hover {
+.navbar li a:hover {
   text-decoration: underline;
 }
 
-/* Секції */
-main {
-  padding: 30px 20px;
-  max-width: 1000px;
-  margin: auto;
-}
-
 section {
-  margin-bottom: 50px;
+  padding: 40px 20px;
+  text-align: center;
 }
 
-h2 {
+section h2 {
   color: #2e7d32;
-  border-bottom: 2px solid #2e7d32;
-  padding-bottom: 10px;
+  margin-bottom: 20px;
 }
 
-/* Галерея */
 .gallery {
   display: flex;
-  gap: 15px;
-  flex-wrap: wrap;
   justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .gallery img {
-  width: 220px;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  max-width: 200px;
+  border-radius: 10px;
 }
 
-/* Карта */
-.map iframe {
-  width: 100%;
-  height: 300px;
-  border: none;
-  border-radius: 8px;
-}
-
-/* Футер */
 footer {
   background-color: #2e7d32;
   color: white;
