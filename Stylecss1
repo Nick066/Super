@@ -1,0 +1,31 @@
+/* Загальні стилі */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+/* Анонсмент-бар */
+.announcement-bar {
+  background-color: #4caf50; /* Світліший зелений */
+  color: white;
+  text-align: center;
+  padding: 8px 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* Хедер */
+header {
+  background-color: #2e7d32; /* Темно-зелений */
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0 0
